@@ -1,4 +1,5 @@
 import { HardhatRuntimeEnvironment } from "hardhat/types";
+import "hardhat-deploy";
 
 import { Etherscan } from "./Etherscan";
 import { DEFAULT_BLOCK_EXPLORER_URLS } from "./constants";
