@@ -4,10 +4,10 @@ This Hardhat plugin allows users to import contract deployments from Etherscan. 
 
 ## Installation
 
-Currently the plugin is not published to any package repository. To start using the plugin, download the code from GitHub and run
+Currently the plugin is not published to any package repository. To start using the plugin, download the code from GitHub and run the following commands in **your project directory:**
 
 ```bash
-yarn add hardhat hardhat-deploy  # these are peer dependencies, so you need to install them separately
+yarn add hardhat hardhat-deploy  # if not installed already; these are peer dependencies, so you need to install them separately
 yarn add /path/to/hardhat-etherscan-import
 ```
 
